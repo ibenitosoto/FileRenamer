@@ -10,7 +10,8 @@ namespace FileRenamer
     {
         static void Main(string[] args)
         {
-            DirectoryRenamer.RenameDirectoryTree(@"C:\Test\FolderMatchALevel", name => name.Replace("MatchA", "AMatch"));
+            DirectoryRenamer.RenameDirectoryTree(@"C:\Users\Nacho\OneDrive - Atlantic TU\Computer Architecture", 
+                                                name => name.Replace(" - Tagged", ""));
         }
     }
 }
